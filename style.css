@@ -39,3 +39,19 @@ h2 {
 .menu a:hover {
   background-color: #975867;
 }
+.box {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.store-item {
+  width: 300px;
+  padding: 1rem;
+}
+
+.store-item img {
+  width: 100%;
+  display: block;
+}
